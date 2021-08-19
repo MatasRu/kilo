@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=KoHo:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap')
 
 $mainColor: #FF9B4E
-$darkYellow: #faf273
+$mainColorHover: #fdb171
 $white: #ffffff
 $darkWhite: #f6f6f6
 $gray: #6e6e6e
@@ -31,19 +31,18 @@ p
   color: rgb(34, 34, 44)
 
 h1
-  margin: 0px 0px 2rem
+  margin: 0 0 2rem
   font-size: 2.5rem
   font-weight: 800
   line-height: 3.5rem
   color: rgb(34, 34, 44)
 
 h3
-  display: block
   font-size: 1.17em
   margin-block-start: 1em
   margin-block-end: 1em
-  margin-inline-start: 0px
-  margin-inline-end: 0px
+  margin-inline-start: 0
+  margin-inline-end: 0
   font-weight: bold
 
 h5
@@ -96,20 +95,28 @@ h5
 // Buttons style
 
 .button
-  background-color: $mainColor
-  padding: 10px 20px
-  border-radius: 3px
-  text-align: center
-  color: $gray
-  transition: 0.3s ease
-  border: none
+  display: block
+  max-width: 22rem
+  width: 100%
+  margin: 30px auto
+  font-weight: 700
+  transition: all 0.2s ease 0s
   outline: none
-  font-weight: 500
+  cursor: pointer
+  -webkit-tap-highlight-color: transparent
+  padding: 0.75rem 2rem
+  font-size: 1rem
+  line-height: 1.5rem
+  color: rgb(255, 255, 255)
+  background: rgb(255, 155, 78)
+  box-shadow: rgb(255 155 78 / 24%) 0 1rem 2rem
+  border: none
+  border-radius: 0.5rem
 
 .button:hover
   cursor: pointer
-  color: $black
-  background-color: $darkYellow
+  color: $white
+  background-color: $mainColorHover
 
 .colored-button
   background-color: $mainColor
@@ -125,13 +132,13 @@ h5
 .colored-button:hover
   cursor: pointer
   color: $black
-  background-color: $darkYellow
-  border: 2px solid $darkYellow
+  background-color: $mainColorHover
+  border: 2px solid $mainColorHover
 
 
 .bordered-button
   background-color: $white
-  border: 2px solid $darkYellow
+  border: 2px solid $mainColorHover
   padding: 10px 20px
   margin: 15px 0
   border-radius: 3px
@@ -143,7 +150,7 @@ h5
 .bordered-button:hover
   cursor: pointer
   color: $black
-  background-color: $darkYellow
+  background-color: $mainColorHover
 
 
 // FLEXBOX

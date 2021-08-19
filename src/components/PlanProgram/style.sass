@@ -9,7 +9,7 @@
   display: flex
   flex-direction: column
   position: relative
-  margin: 0px 0px 0.5rem
+  margin: 0 0 0.5rem
   padding: 0.75rem 1rem 0.875rem
   background-color: rgb(255, 255, 255)
   border: 2px solid rgb(255, 155, 78)
@@ -20,7 +20,8 @@
   display: grid
   grid-template-columns: repeat(1, 1fr)
   gap: 1rem
-  margin: 0px 0px 2rem
+  margin: 0 0 2rem
+  padding: 0
 
 .plan-p
   margin: 0
@@ -31,14 +32,14 @@
   color: rgb(34, 34, 44)
 
 .plan-h1
-  margin: 0px 0.5rem 0px 0px
+  margin: 0 0.5rem 0 0
   font-size: 2.5rem
   font-weight: 800
   line-height: 3.5rem
   color: rgb(34, 34, 44)
 
 .plan-h3
-  margin: 0px 0px 1rem
+  margin: 0 0 3rem
   font-size: 1.5rem
   font-weight: 700
   line-height: 2rem
@@ -49,9 +50,30 @@
   font-size: 0.83em
   margin-block-start: 1.67em
   margin-block-end: 1.67em
-  margin-inline-start: 0px
-  margin-inline-end: 0px
+  margin-inline-start: 0
+  margin-inline-end: 0
   font-weight: bold
+
+.program-grid
+  display: grid
+  margin: 0
+  grid-template-columns: repeat(1, 1fr)
+  gap: 1rem
+
+
+.program-h5
+  margin: 0px
+  font-size: 1rem
+  font-weight: 600
+  line-height: 1.5rem
+  color: rgb(34, 34, 44)
+
+.program-p
+  margin: 0
+  font-size: 0.75rem
+  font-weight: 400
+  line-height: 1.125rem
+  color: rgba(34, 34, 44, 0.64)
 
 .colored-text
   color: $mainColor
@@ -59,3 +81,20 @@
 .m-p-0
   margin: 0
   padding: 0
+
+.safe-payment-img
+  width: 14.5rem
+  margin: 0 auto
+
+.icons
+  max-width: 3rem
+  min-width: 3rem
+  width: 100%
+  height: 3rem
+  margin: 0 1rem 0 0
+  overflow: hidden
+
+svg
+  width: 3rem
+  height: 3rem
+  fill: none

@@ -4,7 +4,13 @@ import imageThree from "./../images/image 615.png"
 import facebookImageOne from "./../images/fb_testimonial_1-9e93a255748590e9e6a559670a30330f.jpg"
 import facebookImageTwo from "./../images/fb_testimonial_2-81a155be03644bf9ac1fe9d89f632acd.jpg"
 import facebookImageThree from "./../images/fb_testimonial_3-c893cf0b11dc4b3a438d809a9c65cb3b.jpg"
-
+import planSvg from "./../svg/plan.svg"
+import exerciseSvg from "./../svg/exercise.svg"
+import shoeSvg from "./../svg/shoe.svg"
+import dietSvg from "./../svg/diet.svg"
+import whistleSvg from "./../svg/whistle.svg"
+import watchSvg from "./../svg/smartwatch.svg"
+import bookSvg from "./../svg/bookcheck.svg"
 
 let data = {
     testimonials: [
@@ -51,6 +57,66 @@ let data = {
             question: "Why this program is paid?",
             answer: "We are aiming to offer our clients the best experience, which comes with a lot of work. The entire yoga program is developed by our large team of experts that work long hours to prepare effective, trustworthy and enjoyable content and workouts that can help you to reach your goals. The program is also completely free of ads and is constantly being updated based on your feedback!"
         },
+    ],
+    plans: [
+        {
+            plan: "6 months plan",
+            price: "$9.99",
+            underlined: "$119.94",
+            bold: "$59.94",
+            plain: "billed every 6 months"
+        },
+        {
+            plan: "3 months plan",
+            price: "$14.99",
+            underlined: "$59.97",
+            bold: "$44.97",
+            plain: "billed every 3 months"
+        },
+        {
+            plan: "1 month plan",
+            price: "$19.99",
+            underlined: "",
+            bold: "$19.99",
+            plain: "billed every month"
+        }
+    ],
+    programInfo: [
+        {
+            title: "A personalized yoga program",
+            description: "Completely safe and focused on your key goals",
+            image: planSvg
+        },
+        {
+            title: "Easy & enjoyable yoga workouts for your level",
+            description: "The program adjusts to your level and pace",
+            image: exerciseSvg
+        },
+        {
+            title: "No special preparation needed",
+            description: "Perfect for beginners! Requires no special preparation or equipment",
+            image: shoeSvg
+        },
+        {
+            title: "Daily motivation & accountability",
+            description: "Track your progress, develop a healthy routine, reach goals faster",
+            image: dietSvg
+        },
+        {
+            title: "Browse from various yoga challenges",
+            description: "30 d morning yoga, mindful yoga, back flexibility challenge, and more!",
+            image: whistleSvg
+        },
+        {
+            title: "Easy access on any device",
+            description: "Do your yoga anywhere across all types of devices",
+            image: watchSvg
+        },
+        {
+            title: "A complete guide to get started",
+            description: "Best tips, guidelines, advice, and recommendations for successful practice",
+            image: bookSvg
+        }
     ]
 }
 
