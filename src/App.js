@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import StickyHeader from "./components/StickyHeader/StickyHeader";
+import Header from "./components/Header/Header";
+import Testimonials from "./components/Testimonials/Testimonials";
+import FacebookCom from "./components/FacebookCom/FacebookCom";
+import FirstProgramPlan from "./components/FirstProgramPlan/FirstProgramPlan";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <StickyHeader/>
+            <Header/>
+            <div className="wrapper">
+                <FirstProgramPlan/>
+            </div>
+            <div className="wrapper">
+                    <Testimonials/>
+            </div>
+            <div className="wrapper">
+                    <FacebookCom/>
+            </div>
+            <div className="wrapper">
+                    <Testimonials/>
+            </div>
+
+
+        </div>
+    );
 }
 
 export default App;
