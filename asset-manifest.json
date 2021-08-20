@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kilo/static/css/main.37cf2a5f.chunk.css",
+    "main.css": "/kilo/static/css/main.de64c0d0.chunk.css",
     "main.js": "/kilo/static/js/main.c0269e92.chunk.js",
     "main.js.map": "/kilo/static/js/main.c0269e92.chunk.js.map",
     "runtime-main.js": "/kilo/static/js/runtime-main.9b45c406.js",
@@ -12,7 +12,7 @@
     "static/js/3.d8d7d0ea.chunk.js.map": "/kilo/static/js/3.d8d7d0ea.chunk.js.map",
     "index.html": "/kilo/index.html",
     "static/css/2.5851ffe3.chunk.css.map": "/kilo/static/css/2.5851ffe3.chunk.css.map",
-    "static/css/main.37cf2a5f.chunk.css.map": "/kilo/static/css/main.37cf2a5f.chunk.css.map",
+    "static/css/main.de64c0d0.chunk.css.map": "/kilo/static/css/main.de64c0d0.chunk.css.map",
     "static/js/2.8aa66f17.chunk.js.LICENSE.txt": "/kilo/static/js/2.8aa66f17.chunk.js.LICENSE.txt",
     "static/media/SFProDisplay-Regular.1e1c0e29.ttf": "/kilo/static/media/SFProDisplay-Regular.1e1c0e29.ttf",
     "static/media/app_screens-f46ae641ef820426c7f62e2de6266d48.da4f113e.jpg": "/kilo/static/media/app_screens-f46ae641ef820426c7f62e2de6266d48.da4f113e.jpg",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.9b45c406.js",
     "static/css/2.5851ffe3.chunk.css",
     "static/js/2.8aa66f17.chunk.js",
-    "static/css/main.37cf2a5f.chunk.css",
+    "static/css/main.de64c0d0.chunk.css",
     "static/js/main.c0269e92.chunk.js"
   ]
 }
