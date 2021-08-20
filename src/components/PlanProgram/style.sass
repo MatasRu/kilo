@@ -11,10 +11,17 @@
   position: relative
   margin: 0 0 0.5rem
   padding: 0.75rem 1rem 0.875rem
-  background-color: rgb(255, 255, 255)
-  border: 2px solid rgb(255, 155, 78)
+  background-color: $white
+  border: 2px solid #E5E5E5
   border-radius: 1rem
   cursor: pointer
+
+.plan-selected
+  border: 2px solid $mainColor
+
+.circle-img
+  margin-left: auto
+
 
 .program-grid
   display: grid
@@ -33,13 +40,15 @@
 
 .plan-h1
   margin: 0 0.5rem 0 0
-  font-size: 2.5rem
-  font-weight: 800
+  font-size: 32px
+  font-weight: 700
   line-height: 3.5rem
   color: rgb(34, 34, 44)
+  font-style: normal
+
 
 .plan-h3
-  margin: 0 0 3rem
+  margin: 0 0 1.5rem
   font-size: 1.5rem
   font-weight: 700
   line-height: 2rem
@@ -54,12 +63,21 @@
   margin-inline-end: 0
   font-weight: bold
 
+.line-through
+  text-decoration: line-through
+
 .program-grid
   display: grid
   margin: 0
   grid-template-columns: repeat(1, 1fr)
   gap: 1rem
 
+.program-h3
+  margin: 0 0 3rem
+  font-size: 1.5rem
+  font-weight: 700
+  line-height: 2rem
+  color: rgb(34, 34, 44)
 
 .program-h5
   margin: 0px

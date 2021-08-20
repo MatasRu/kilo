@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './styles/main.sass';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import "./fonts/SFProDisplay-Regular.ttf"
 
 ReactDOM.render(
   <React.StrictMode>

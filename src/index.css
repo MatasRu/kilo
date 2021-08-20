@@ -3,13 +3,18 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-size-adjust: 100%
+  text-size-adjust: 100%;
   text-rendering: optimizeLegibility
 }
-
-
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: "SfPro";
+  src: local("SfPro"),
+  url("./fonts/SFProDisplay-Regular.ttf") format("truetype");
+  font-weight: bold;
 }

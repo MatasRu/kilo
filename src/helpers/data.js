@@ -63,21 +63,21 @@ let data = {
             plan: "6 months plan",
             price: "$9.99",
             underlined: "$119.94",
-            bold: "$59.94",
+            bold: " $59.94",
             plain: "billed every 6 months"
         },
         {
             plan: "3 months plan",
             price: "$14.99",
             underlined: "$59.97",
-            bold: "$44.97",
+            bold: " $44.97",
             plain: "billed every 3 months"
         },
         {
             plan: "1 month plan",
             price: "$19.99",
             underlined: "",
-            bold: "$19.99",
+            bold: " $19.99",
             plain: "billed every month"
         }
     ],
@@ -117,6 +117,14 @@ let data = {
             description: "Best tips, guidelines, advice, and recommendations for successful practice",
             image: bookSvg
         }
+    ],
+    whyYoga: [
+      "Each program adapts to your age or fitness level",
+        "Mindful way to exercise and get real results",
+        "Effective and long-term lasting results",
+        "Suited activities that benefit both the mind and body",
+        "Low-intensity but highly-effective workouts",
+        "Extra attention to muscle, joint and back health"
     ]
 }
 

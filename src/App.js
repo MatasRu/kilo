@@ -1,8 +1,11 @@
 import StickyHeader from "./components/StickyHeader/StickyHeader";
 import Header from "./components/Header/Header";
+import FirstProgramPlan from "./components/FirstProgramPlan/FirstProgramPlan";
 import Testimonials from "./components/Testimonials/Testimonials";
 import FacebookCom from "./components/FacebookCom/FacebookCom";
-import FirstProgramPlan from "./components/FirstProgramPlan/FirstProgramPlan";
+import WhyYoga from "./components/WhyYoga/WhyYoga";
+import Faq from "./components/Faq/Faq";
+import SecondProgramPlan from "./components/SecondProgramPlan/SecondProgramPlan";
 
 function App() {
     return (
@@ -13,16 +16,20 @@ function App() {
                 <FirstProgramPlan/>
             </div>
             <div className="wrapper">
-                    <Testimonials/>
+                <Testimonials/>
             </div>
             <div className="wrapper">
-                    <FacebookCom/>
+                <WhyYoga/>
             </div>
             <div className="wrapper">
-                    <Testimonials/>
+                <Faq/>
             </div>
-
-
+            <div className="wrapper">
+                <FacebookCom/>
+            </div>
+            <div className="wrapper">
+                <SecondProgramPlan/>
+            </div>
         </div>
     );
 }
