@@ -3,7 +3,7 @@
 .facebook-container
   position: relative
   max-width: 62rem
-  padding: 0px 2rem
+  padding: 0 2rem
   margin: auto
   box-sizing: border-box
 
@@ -11,7 +11,17 @@
   display: grid
   grid-template-columns: repeat(3, 1fr)
   gap: 1rem
-  margin: 0px 0px 3rem
+  margin: 0 0 3rem
 
 .fb-testimonial-img
   width: 100%
+
+@media (max-width: 480px)
+  .facebook-container
+    padding: 0 1rem
+
+  .facebook-grid
+    grid-template-columns: repeat(1, 3fr)
+
+  .fb-testimonial-img
+    width: 80%

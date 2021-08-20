@@ -60,6 +60,7 @@ let data = {
     ],
     plans: [
         {
+            discount: "Save 50%",
             plan: "6 months plan",
             price: "$9.99",
             underlined: "$119.94",

@@ -26,7 +26,7 @@ function PlanProgram() {
                 {data.plans.map((item, index) =>
                     selectedBox[index] ?
                         <div key={index} className="plan-select-box plan-selected " onClick={() => selectPlan(index)}>
-                            <h5>{item.plan}</h5>
+                            <h5>{item.plan} <span className="discount-span">{item.discount}</span></h5>
                             <div className="d-flex align-items-center">
                                 <h1 className="plan-h1">{item.price} </h1>
                                 <p> / month</p>
@@ -37,7 +37,7 @@ function PlanProgram() {
                         </div>
                         :
                         <div key={index} className="plan-select-box" onClick={() => selectPlan(index)}>
-                            <h5>{item.plan}</h5>
+                            <h5>{item.plan} <span className="discount-span">{item.discount}</span></h5>
                             <div className="d-flex align-items-center">
                                 <h1 className="plan-h1">{item.price} </h1>
                                 <p> / month</p>

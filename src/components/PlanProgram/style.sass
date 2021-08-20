@@ -38,6 +38,14 @@
   line-height: 1.25rem
   color: rgb(34, 34, 44)
 
+.discount-span
+  display: inline-block
+  margin: 0 0 0 0.5rem
+  font-size: 0.75rem
+  color: rgb(34, 34, 44)
+  background-color: rgb(255, 240, 124)
+  border-radius: 0.25rem
+
 .plan-h1
   margin: 0 0.5rem 0 0
   font-size: 32px
@@ -80,7 +88,7 @@
   color: rgb(34, 34, 44)
 
 .program-h5
-  margin: 0px
+  margin: 0
   font-size: 1rem
   font-weight: 600
   line-height: 1.5rem
@@ -116,3 +124,20 @@ svg
   width: 3rem
   height: 3rem
   fill: none
+
+@media (max-width: 880px)
+  .plan-program-grid
+    grid-template-columns: repeat(1, 1fr)
+
+
+
+@media (max-width: 480px)
+  .plan-program-grid
+    padding: 0
+
+  .plan-h3
+    font-size: 1.25rem
+    line-height: 1.75rem
+
+
+
