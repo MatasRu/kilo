@@ -1,6 +1,6 @@
 {
   "name": "kilo",
-  "http://MatasRu.github.io/kilo",
+  "homepage": "http://MatasRu.github.io/kilo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
