@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/kilo/static/css/main.dfd560f7.chunk.css",
-    "main.js": "/kilo/static/js/main.5d9ac9e3.chunk.js",
-    "main.js.map": "/kilo/static/js/main.5d9ac9e3.chunk.js.map",
-    "runtime-main.js": "/kilo/static/js/runtime-main.a8df8dad.js",
-    "runtime-main.js.map": "/kilo/static/js/runtime-main.a8df8dad.js.map",
-    "static/js/2.d1ec9a0c.chunk.js": "/kilo/static/js/2.d1ec9a0c.chunk.js",
-    "static/js/2.d1ec9a0c.chunk.js.map": "/kilo/static/js/2.d1ec9a0c.chunk.js.map",
-    "static/js/3.abb21beb.chunk.js": "/kilo/static/js/3.abb21beb.chunk.js",
-    "static/js/3.abb21beb.chunk.js.map": "/kilo/static/js/3.abb21beb.chunk.js.map",
+    "main.css": "/kilo/static/css/main.37cf2a5f.chunk.css",
+    "main.js": "/kilo/static/js/main.c0269e92.chunk.js",
+    "main.js.map": "/kilo/static/js/main.c0269e92.chunk.js.map",
+    "runtime-main.js": "/kilo/static/js/runtime-main.9b45c406.js",
+    "runtime-main.js.map": "/kilo/static/js/runtime-main.9b45c406.js.map",
+    "static/css/2.5851ffe3.chunk.css": "/kilo/static/css/2.5851ffe3.chunk.css",
+    "static/js/2.8aa66f17.chunk.js": "/kilo/static/js/2.8aa66f17.chunk.js",
+    "static/js/2.8aa66f17.chunk.js.map": "/kilo/static/js/2.8aa66f17.chunk.js.map",
+    "static/js/3.d8d7d0ea.chunk.js": "/kilo/static/js/3.d8d7d0ea.chunk.js",
+    "static/js/3.d8d7d0ea.chunk.js.map": "/kilo/static/js/3.d8d7d0ea.chunk.js.map",
     "index.html": "/kilo/index.html",
-    "static/css/main.dfd560f7.chunk.css.map": "/kilo/static/css/main.dfd560f7.chunk.css.map",
-    "static/js/2.d1ec9a0c.chunk.js.LICENSE.txt": "/kilo/static/js/2.d1ec9a0c.chunk.js.LICENSE.txt",
+    "static/css/2.5851ffe3.chunk.css.map": "/kilo/static/css/2.5851ffe3.chunk.css.map",
+    "static/css/main.37cf2a5f.chunk.css.map": "/kilo/static/css/main.37cf2a5f.chunk.css.map",
+    "static/js/2.8aa66f17.chunk.js.LICENSE.txt": "/kilo/static/js/2.8aa66f17.chunk.js.LICENSE.txt",
     "static/media/SFProDisplay-Regular.1e1c0e29.ttf": "/kilo/static/media/SFProDisplay-Regular.1e1c0e29.ttf",
     "static/media/app_screens-f46ae641ef820426c7f62e2de6266d48.da4f113e.jpg": "/kilo/static/media/app_screens-f46ae641ef820426c7f62e2de6266d48.da4f113e.jpg",
     "static/media/bookcheck.d68efb29.svg": "/kilo/static/media/bookcheck.d68efb29.svg",
@@ -28,13 +30,15 @@
     "static/media/plan.fd52c3dc.svg": "/kilo/static/media/plan.fd52c3dc.svg",
     "static/media/safe_payment-23fda9d35a9b235a92b7fce376d0d489.4f9b0284.jpg": "/kilo/static/media/safe_payment-23fda9d35a9b235a92b7fce376d0d489.4f9b0284.jpg",
     "static/media/shoe.93e737b6.svg": "/kilo/static/media/shoe.93e737b6.svg",
+    "static/media/slick-theme.css": "/kilo/static/media/slick.c94f7671.ttf",
     "static/media/smartwatch.71d0db11.svg": "/kilo/static/media/smartwatch.71d0db11.svg",
     "static/media/whistle.74b510a3.svg": "/kilo/static/media/whistle.74b510a3.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a8df8dad.js",
-    "static/js/2.d1ec9a0c.chunk.js",
-    "static/css/main.dfd560f7.chunk.css",
-    "static/js/main.5d9ac9e3.chunk.js"
+    "static/js/runtime-main.9b45c406.js",
+    "static/css/2.5851ffe3.chunk.css",
+    "static/js/2.8aa66f17.chunk.js",
+    "static/css/main.37cf2a5f.chunk.css",
+    "static/js/main.c0269e92.chunk.js"
   ]
 }
