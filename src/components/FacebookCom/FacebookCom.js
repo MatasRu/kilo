@@ -13,22 +13,21 @@ function FacebookCom() {
         speed: 500,
         slidesToShow: 1.7,
         slidesToScroll: 1
-    };
+    }
 
     const [isDesktop, setDesktop] = useState(window.innerWidth > 1450);
     const updateMedia = () => {
         setDesktop(window.innerWidth > 480);
-    };
+    }
 
     useEffect(() => {
         window.addEventListener("resize", updateMedia);
         return () => window.removeEventListener("resize", updateMedia);
-    });
+    })
 
     return (
         <div className="facebook-container d-flex flex-column">
             <h3>Facebook comments</h3>
-
             {isDesktop ? (
                 <div className="facebook-grid">
                     {data.fbTestimonials.map((item, index) =>
@@ -44,7 +43,6 @@ function FacebookCom() {
                     </Slider>
                 </div>
             )}
-
         </div>
     );
 }

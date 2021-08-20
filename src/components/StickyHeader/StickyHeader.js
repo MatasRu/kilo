@@ -12,7 +12,7 @@ function StickyHeader() {
         interval = setInterval(() => {
             setTimer(timer => timer - 1);
         }, 1000);
-        if(timer < 1) {
+        if (timer < 1) {
             setTimer(900)
         }
         return () => clearInterval(interval)
@@ -24,9 +24,15 @@ function StickyHeader() {
         let h = Math.floor(seconds / 3600);
         let m = Math.floor(seconds % 3600 / 60);
         let s = Math.floor(seconds % 3600 % 60);
-        if (h < 10) {h   = "0"+h;}
-        if (m < 10) {m = "0"+m;}
-        if (s < 10) {s = "0"+s;}
+        if (h < 10) {
+            h = "0" + h;
+        }
+        if (m < 10) {
+            m = "0" + m;
+        }
+        if (s < 10) {
+            s = "0" + s;
+        }
         let hDisplay = h > 0 ? `${h} + ":"` : "00:";
         let mDisplay = m > 0 ? `${m}:` : "00:";
         let sDisplay = s > 0 ? s : "00";

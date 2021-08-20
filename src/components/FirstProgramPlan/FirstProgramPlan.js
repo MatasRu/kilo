@@ -1,7 +1,6 @@
 import "./style.sass"
 import PlanProgram from "../PlanProgram/PlanProgram";
 
-
 function FirstProgramPlan() {
     return (
         <div className="first-program-plan d-flex flex-column">
